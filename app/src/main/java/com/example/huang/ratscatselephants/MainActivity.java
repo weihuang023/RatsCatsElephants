@@ -86,9 +86,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         Music.stop(this);
     }
 
-    /** OnClick will have all the controllers from imageButton and button
-     *  ImageButton 3 for Rock Paper Scissor
-     *  Button 1 for About */
     @Override
     public void onClick(View v) {
 
