@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
     private double status = 0;
 
     SeekBar statusSeekBar;
-    ImageButton rockImageButton;
-    ImageButton paperImageButton;
-    ImageButton scissorImageButton;
+    ImageButton catImageButton;
+    ImageButton ratImageButton;
+    ImageButton elephantImageButton;
     ImageView imageView1;
     ImageView imageView2;
     TextView result_tv;
@@ -62,12 +62,12 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         gameLayout.setBackgroundResource(R.drawable.image1);
         aboutButton = (Button) findViewById(R.id.about_button);
         aboutButton.setOnClickListener(this);
-        rockImageButton = (ImageButton) findViewById(R.id.cat_imagebutton);
-        rockImageButton.setOnClickListener(this);
-        paperImageButton = (ImageButton) findViewById(R.id.rat_imagebutton);
-        paperImageButton.setOnClickListener(this);
-        scissorImageButton = (ImageButton) findViewById(R.id.elephant_imagebutton);
-        scissorImageButton.setOnClickListener(this);
+        catImageButton = (ImageButton) findViewById(R.id.cat_imagebutton);
+        catImageButton.setOnClickListener(this);
+        ratImageButton = (ImageButton) findViewById(R.id.rat_imagebutton);
+        ratImageButton.setOnClickListener(this);
+        elephantImageButton = (ImageButton) findViewById(R.id.elephant_imagebutton);
+        elephantImageButton.setOnClickListener(this);
         statusSeekBar = (SeekBar) findViewById(R.id.status_seekBar);
         exitButton = (Button) findViewById(R.id.exit_button);
 
