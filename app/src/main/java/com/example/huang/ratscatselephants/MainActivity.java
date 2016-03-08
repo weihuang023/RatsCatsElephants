@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         elephantImageButton.setOnClickListener(this);
         statusSeekBar = (SeekBar) findViewById(R.id.status_seekBar);
         exitButton = (Button) findViewById(R.id.exit_button);
+        exitButton.setOnClickListener(this);
 
     }
 
