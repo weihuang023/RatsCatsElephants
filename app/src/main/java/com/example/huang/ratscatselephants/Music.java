@@ -5,16 +5,17 @@ import android.content.Context;
 import android.media.MediaPlayer;
 
 public class Music {
+
     private static MediaPlayer mp = null;
 
     /** Stop the old song and start the new one */
     public static void play(Context context, int resource){
         stop(context);
-
         if (Prefs.getMusic(context)) {
             mp = MediaPlayer.create(context, resource);
             mp.setLooping(true);
             mp.start();
+
         }
     }
 
